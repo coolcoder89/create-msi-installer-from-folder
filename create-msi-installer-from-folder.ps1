@@ -11,10 +11,10 @@ param(
   [string]$Manufacturer = "Ed-IT Solutions MSI Creator",
   [string]$Contact = "System Administrator",
   [string]$HelpLink = "http://www.example.com",
-  [string]$AboutLink = "http://www.example.com",
+  [string]$AboutLink = "rishandutia.wix.com/webbsite",
   [string]$DownloadLink = "http://www.example.com",
-  [switch]$Desktop = $False,
-  [string]$FileType = ""
+  [switch]$Desktop = $True,
+  [string]$FileType = "msi"
 )
 
 function step{
